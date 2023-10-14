@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Grands</string>
+    <string name="start_app_question">How are you Today?</string>
+    <string name="buttonforokkay">I am fine</string>
+    <string name="buttonforhelp">NEED HELP!</string>
+    <string name="messageformed">Take medications at the same time daily.
+Use a pill organizer.
+Set alarms or reminders on devices.
+Link medication doses to daily routines.
+Involve caregivers or family members if needed.
+Store medications in visible locations.
+Schedule regular medication reviews.
+Organize medications by different times of day.
+Use large, clear labels on medication bottles.
+Check for potential interactions with healthcare providers.
+Keep an updated list of all medications.
+Regularly check vision and hearing.
+Use easy-to-open containers if needed.
+Stay hydrated to aid swallowing.
+Read labels before taking medications.
+Store medications safely and away from children.
+Report any side effects to healthcare providers.
+Maintain a balanced diet and regular exercise.
+Consider simpler dosing schedules.
+Communicate changes to healthcare providers.
+</string>
+</resources>

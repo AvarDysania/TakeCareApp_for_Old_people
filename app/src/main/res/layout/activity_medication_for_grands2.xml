@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/med"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MedicationForGrands">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="183dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="A Better Way Medication"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="98dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/medication" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="191dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="47dp"
+        android:text="Take medications at the same time daily."
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="191dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="47dp"
+        android:text="Stay hydrated to aid swallowing."
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="199dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="26dp"
+        android:text="Regularly check vision and hearing. "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="204dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:text="Maintain a balanced diet and regular exercise. "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="210dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="60dp"
+        android:text="Check for potential interactions with healthcare providers. "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView2"
+        android:layout_width="114dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/point1" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView3"
+        android:layout_width="114dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/point2" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView4"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView3"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/point3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView5"
+        android:layout_width="114dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/point4" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="114dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView5"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/point5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
